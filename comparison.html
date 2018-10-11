@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Comparison - WeatherPy Analysis</title>
+
+  <link type="text/css" rel="stylesheet" href="eset.css">
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+    
+        <div class="navbar-header">
+            <a class="navbar-brand" id="nav-brand" href="index.html">WeatherPy</a>
+        </div>
+
+        <div>
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a href="temp.html">Temperature</a></li>
+                    <li><a href="humidity.html">Humidity</a></li>
+                    <li><a href="cloudiness.html">Cloudiness</a></li>
+                    <li><a href="wind.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+            </ul>
+        </div>
+        
+        </div>
+      
+    </nav>
+    <div class="container">
+        <div class="back-container">
+            <header>
+                <h1 id="comparison-title">Comparison: Latitude vs. X</h1>
+            </header>
+            <hr>
+            <section>
+            <p id="comparison-text">Click on a plot to get an in-depth analysis.</p>
+            </section>  
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="text-center">vs. Temperature</h3>    
+                            <a href="temp.html">
+                                <div class="thumbnail">
+                                    <img src="./Resources/Fig1.png" alt="Temp Plot">
+                                </div>
+                            </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="text-center">vs. Humidity</h3>    
+                        <a href="humidity.html">
+                            <div class="thumbnail">
+                                <img src="./Resources/Fig2.png" alt="Humidity Plot">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="text-center">vs. Cloudiness</h3>    
+                        <a href="cloudiness.html">
+                            <div class="thumbnail">
+                                <img src="./Resources/Fig3.png" alt="Cloud Plot">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="text-center">vs. Wind Speed</h3>    
+                        <a href="wind.html">
+                            <div class="thumbnail">
+                                <img src="./Resources/Fig4.png" alt="Wind Plot">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

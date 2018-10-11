@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Wind - WeatherPy Analysis</title>
+
+  <link type="text/css" rel="stylesheet" href="eset.css">
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+    
+        <div class="navbar-header">
+            <a class="navbar-brand" id="nav-brand" href="index.html">WeatherPy</a>
+        </div>
+
+        <div>
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a href="temp.html">Temperature</a></li>
+                    <li><a href="humidity.html">Humidity</a></li>
+                    <li><a href="cloudiness.html">Cloudiness</a></li>
+                    <li><a href="wind.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+            </ul>
+        </div>
+        
+        </div>
+      
+    </nav>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 back-container" id="landing-summary">
+              <header>
+                  <h1 id="summary-title">Wind Speed</h1>
+              </header>
+              <hr>
+              <section id="summary-text">
+                <section>
+                  <img class="-plot-graph" src="./Resources/Fig4.png" alt="Wind Plot">
+                </section>
+                <p>There is no real strong correlation between wind speed and latitude. There are some outliers as there is few data that has high wind storm but that could be due 
+                    to extreme cases that are not indicative of any trends.
+                </p>
+              
+              </section>
+          </div>
+          <div class="col-md-4 back-container" id="side-panel">
+                <h2 id="side-panel-title">Visualizations</h2>
+                <hr>
+                <div class="row">
+                  <a href="temp.html">
+                    <div class="thumbnail viz-plot">
+                        <img src="./Resources/Fig1.png" alt="Temp Plot">
+                    </div>
+                  </a>
+                  <a href="humidity.html">
+                      <div class="thumbnail viz-plot">
+                          <img src="./Resources/Fig2.png" alt="Humidity Plot">
+                      </div>
+                  </a>
+                  <a href="cloudiness.html">
+                      <div class="thumbnail viz-plot">
+                          <img src="./Resources/Fig3.png" alt="Cloud Plot">
+                      </div>
+                  </a>
+                  <a href="wind.html">
+                      <div class="thumbnail viz-plot">
+                          <img src="./Resources/Fig4.png" alt="Wind Plot">
+                      </div>
+                  </a>
+                </div>
+          </div>
+        </div>
+      </main>
+    
+    </body>
+    
+    </html>  
